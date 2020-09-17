@@ -1,5 +1,7 @@
 library(dplyr)
+
 filename <- "Coursera_DS3_Final.zip"
+
 # CHecking if file of that name exists
 if (!file.exists(filename)){
   fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
